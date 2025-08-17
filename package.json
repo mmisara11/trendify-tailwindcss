@@ -8,5 +8,8 @@
   "scripts": {
     "start": "npx @tailwindcss/cli -i ./src/css/input.css -o ./src/css/output.css -w",
     "build": "npx @tailwindcss/cli -i ./src/css/input.css -o ./src/css/output.css -m"
+  },
+  "devDependencies": {
+    "cross-env": "^10.0.0"
   }
 }
