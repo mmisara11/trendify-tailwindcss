@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../../node_modules/flowbite";
+
+
+@utility container {
+
+   margin-inline: auto;
+}
+
+@theme {
+   --color-mainColor: #8B5E35;
+   --color-section: #f6f6f6;
+}
+
+/* includes all tailwind */
+
+body {
+   font-family: "Playwrite CU", cursive;
+}
+
+@layer utilities {
+   .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+}
+
+@layer components {
+   .btn {
+      background-color: var(--color-mainColor);
+      padding-block: calc(var(--spacing) * 3);
+      padding-inline: calc(var(--spacing) * 13);
+      border-radius: calc(infinity * 1px);
+      cursor: pointer;
+   }
+
+   .btn:hover {
+      background-color: #573311;
+      transition: all .5s;
+   }
+}

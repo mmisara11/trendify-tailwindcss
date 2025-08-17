@@ -1,0 +1,543 @@
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header
+      id="home"
+      class="flex items-center min-h-screen bg-[url('../assets/img/header.png')] bg-cover bg-no-repeat bg-center">
+      <nav
+        class="bg-[#F9FAFB] border-gray-200 dark:bg-gray-900 fixed top-0 start-0 z-50 w-full shadow-md">
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a
+            href="#home"
+            class="flex items-center space-x-3 rtl:space-x-reverse">
+            <span class="text-mainColor text-3xl">Trendify</span>
+          </a>
+          <button
+            data-collapse-toggle="navbar-default"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-default"
+            aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14">
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul
+              class="font-bold flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+              <li>
+                <a
+                  href="#home"
+                  class="block py-2 px-3 text-white bg-mainColor rounded-sm md:bg-transparent md:text-mainColor md:p-0 dark:text-white md:dark:text-blue-500"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-mainColor md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#products"
+                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-mainColor md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Products</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about-us"
+                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-mainColor md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >About us</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="#contact-us"
+                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-mainColor md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container text-white">
+        <h1 class="text-3xl">
+          Elevate Your Home with <br />
+          Stylish Furniture
+        </h1>
+        <p class="w-1/2 py-10">
+          Explore a range of high-quality, affordable furniture designed to
+          transform any room. Discover the perfect blend of style, comfort, and
+          functionality for your space.
+        </p>
+        <button class="btn">Shop Now</button>
+      </div>
+    </header>
+
+    <!-- start services -->
+    <section id="services" class="py-30 bg-[#F6F6F6]">
+      <div class="container">
+        <div class="head-title text-center">
+          <h2
+            class="text-mainColor mb-6 text-5xl drop-shadow-sm drop-shadow-orange-600 relative after:w-30 after:h-0.5 after:bg-mainColor after:absolute after:top-[120%] after:start-[47%]">
+            Services
+          </h2>
+          <p class="">
+            Benefits when using <br />
+            our services
+          </p>
+        </div>
+        <div
+          class="services-items mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="item shadow-sm bg-white rounded p-4">
+            <span
+              class="text-mainColor block center size-14 text-3xl rounded-full bg-section">
+              <i class="fa-regular fa-lightbulb"></i>
+            </span>
+            <h3 class="text-3xl mt-2 mb-6 font-bold">Inspiration</h3>
+            <p class="leading-normal text-gray-400">
+              Lorem ipsum dolor sit amet consectetur. Est vel risus hendrerit
+              laoreet purus malesuada dignissim.
+            </p>
+          </div>
+          <div class="item shadow-sm bg-white rounded p-4">
+            <span
+              class="text-mainColor block center size-14 text-3xl rounded-full bg-section">
+              <i class="fa-solid fa-headphones"></i>
+            </span>
+            <h3 class="text-3xl mt-2 mb-6 font-bold">24/7 Customer Services</h3>
+            <p class="leading-normal text-gray-400">
+              Lorem ipsum dolor sit amet consectetur. Est vel risus hendrerit
+              laoreet purus malesuada dignissim.
+            </p>
+          </div>
+          <div class="item shadow-sm bg-white rounded p-4">
+            <span
+              class="text-mainColor block center size-14 text-2xl rounded-full bg-section">
+              <i class="fa-solid fa-truck-fast"></i>
+            </span>
+            <h3 class="text-3xl mt-2 mb-6 font-bold">Express Shipping</h3>
+            <p class="leading-normal text-gray-400">
+              Lorem ipsum dolor sit amet consectetur. Est vel risus hendrerit
+              laoreet purus malesuada dignissim.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- start product -->
+    <section id="products" class="py-30 bg-white">
+      <div class="container">
+        <div class="head-title text-center">
+          <h2
+            class="text-mainColor mb-6 text-5xl drop-shadow-sm drop-shadow-orange-600 relative after:w-30 after:h-0.5 after:bg-mainColor after:absolute after:top-[120%] after:start-[47%]">
+            Products
+          </h2>
+          <p class="">Best Selling Product</p>
+        </div>
+        <div
+          class="products mt-10 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div class="product shadow">
+            <div class="item shadow-sm bg-white rounded p-2">
+              <div>
+                <img
+                  src="../src/assets/img/product1.png"
+                  loading="lazy"
+                  class="w-full rounded"
+                  alt="Winter Beige Vibes outfit" />
+              </div>
+              <div class="item-caption">
+                <h3 class="text-xl my-3">Winter Beige Vibes</h3>
+                <div class="flex space-x-1 items-center">
+                  <span><i class="fas fa-star text-yellow-400"></i></span>
+                  <span class="text-xs">4.8</span>
+                  <span class="text-gray-600 text-xs">(500+)</span>
+                </div>
+                <div class="discount">
+                  <span class="text-main">5000 </span>
+                  <span class="line-through text-gray-500">10000 EGP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product shadow">
+            <div class="item shadow-sm bg-white rounded p-2">
+              <div>
+                <img
+                  src="../src/assets/img/product2.png"
+                  loading="lazy"
+                  class="w-full rounded"
+                  alt="Winter Beige Vibes outfit" />
+              </div>
+              <div class="item-caption">
+                <h3 class="text-xl my-3">Winter Beige Vibes</h3>
+                <div class="flex space-x-1 items-center">
+                  <span><i class="fas fa-star text-yellow-400"></i></span>
+                  <span class="text-xs">4.8</span>
+                  <span class="text-gray-600 text-xs">(500+)</span>
+                </div>
+                <div class="discount">
+                  <span class="text-main">5000 </span>
+                  <span class="line-through text-gray-500">10000 EGP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product shadow">
+            <div class="item shadow-sm bg-white rounded p-2">
+              <div>
+                <img
+                  src="../src/assets/img/product3.png"
+                  loading="lazy"
+                  class="w-full rounded"
+                  alt="Winter Beige Vibes outfit" />
+              </div>
+              <div class="item-caption">
+                <h3 class="text-xl my-3">Winter Beige Vibes</h3>
+                <div class="flex space-x-1 items-center">
+                  <span><i class="fas fa-star text-yellow-400"></i></span>
+                  <span class="text-xs">4.8</span>
+                  <span class="text-gray-600 text-xs">(500+)</span>
+                </div>
+                <div class="discount">
+                  <span class="text-main">5000 </span>
+                  <span class="line-through text-gray-500">10000 EGP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product shadow">
+            <div class="item shadow-sm bg-white rounded p-2">
+              <div>
+                <img
+                  src="../src/assets/img/product4.png"
+                  loading="lazy"
+                  class="w-full rounded"
+                  alt="Winter Beige Vibes outfit" />
+              </div>
+              <div class="item-caption">
+                <h3 class="text-xl my-3">Winter Beige Vibes</h3>
+                <div class="flex space-x-1 items-center">
+                  <span><i class="fas fa-star text-yellow-400"></i></span>
+                  <span class="text-xs">4.8</span>
+                  <span class="text-gray-600 text-xs">(500+)</span>
+                </div>
+                <div class="discount">
+                  <span class="text-main">5000 </span>
+                  <span class="line-through text-gray-500">10000 EGP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product shadow">
+            <div class="item shadow-sm bg-white rounded p-2">
+              <div>
+                <img
+                  src="../src/assets/img/product5.png"
+                  loading="lazy"
+                  class="w-full rounded"
+                  alt="Winter Beige Vibes outfit" />
+              </div>
+              <div class="item-caption">
+                <h3 class="text-xl my-3">Winter Beige Vibes</h3>
+                <div class="flex space-x-1 items-center">
+                  <span><i class="fas fa-star text-yellow-400"></i></span>
+                  <span class="text-xs">4.8</span>
+                  <span class="text-gray-600 text-xs">(500+)</span>
+                </div>
+                <div class="discount">
+                  <span class="text-main">5000 </span>
+                  <span class="line-through text-gray-500">10000 EGP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product shadow">
+            <div class="item shadow-sm bg-white rounded p-2">
+              <div>
+                <img
+                  src="../src/assets/img/product6.png"
+                  loading="lazy"
+                  class="w-full rounded"
+                  alt="Winter Beige Vibes outfit" />
+              </div>
+              <div class="item-caption">
+                <h3 class="text-xl my-3">Winter Beige Vibes</h3>
+                <div class="flex space-x-1 items-center">
+                  <span><i class="fas fa-star text-yellow-400"></i></span>
+                  <span class="text-xs">4.8</span>
+                  <span class="text-gray-600 text-xs">(500+)</span>
+                </div>
+                <div class="discount">
+                  <span class="text-main">5000 </span>
+                  <span class="line-through text-gray-500">10000 EGP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product shadow">
+            <div class="item shadow-sm bg-white rounded p-2">
+              <div>
+                <img
+                  src="../src/assets/img/product7.png"
+                  loading="lazy"
+                  class="w-full rounded"
+                  alt="Winter Beige Vibes outfit" />
+              </div>
+              <div class="item-caption">
+                <h3 class="text-xl my-3">Winter Beige Vibes</h3>
+                <div class="flex space-x-1 items-center">
+                  <span><i class="fas fa-star text-yellow-400"></i></span>
+                  <span class="text-xs">4.8</span>
+                  <span class="text-gray-600 text-xs">(500+)</span>
+                </div>
+                <div class="discount">
+                  <span class="text-main">5000 </span>
+                  <span class="line-through text-gray-500">10000 EGP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product shadow">
+            <div class="item shadow-sm bg-white rounded p-2">
+              <div>
+                <img
+                  src="../src/assets/img/product8.png"
+                  loading="lazy"
+                  class="w-full rounded"
+                  alt="Winter Beige Vibes outfit" />
+              </div>
+              <div class="item-caption">
+                <h3 class="text-xl my-3">Winter Beige Vibes</h3>
+                <div class="flex space-x-1 items-center">
+                  <span><i class="fas fa-star text-yellow-400"></i></span>
+                  <span class="text-xs">4.8</span>
+                  <span class="text-gray-600 text-xs">(500+)</span>
+                </div>
+                <div class="discount">
+                  <span class="text-main">5000 </span>
+                  <span class="line-through text-gray-500">10000 EGP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about us  -->
+    <section id="about-us" class="py-30 bg-[#F6F6F6]">
+      <div class="head-title text-center">
+        <h2
+          class="text-[#090F41] mb-6 text-5xl drop-shadow-sm drop-shadow-[#090F41] relative after:w-30 after:h-0.5 after:bg-[#090F41] after:absolute after:top-[120%] after:start-[47%]">
+          A few words about us
+        </h2>
+        <p class="text-[#090F41]">
+          Make your best moments more stylish with our latest designs of
+          clothing.
+        </p>
+      </div>
+      <div class="container">
+        <div class="about-content">
+          <div class="about-item items-center grid md:grid-cols-2 gap-10 mt-30">
+            <div class="about-img rounded" loading="lazy">
+              <img src="../src/assets/img/about1.png" class="w-full" alt="" />
+            </div>
+            <div class="about-data">
+              <h3>Why choose us ?</h3>
+              <p class="mt-4">
+                Maecenas congue metus id turpis iaculis mattis. Sed pellentesque
+                id arcu id scelerisque. Ut ullamcorper rutrum justo, at blandit
+                eros maximus ut. Integer non tincidunt justo, rhoncus Aenean
+                venenatis sed purus ac sollicitudin. Nulla mauris risus, commodo
+                et luctus rutrum, lobortis sed mauris. Integer congue, sem
+                elementum varius tristique.
+              </p>
+            </div>
+          </div>
+          <div class="about-item items-center grid md:grid-cols-2 gap-5 mt-30">
+            <div class="about-data">
+              <h3>Trusted online shopping</h3>
+              <p class="mt-4 leading-normal text-gray-700">
+                Maecenas congue metus id turpis iaculis mattis. Sed pellentesque
+                id arcu id scelerisque. Ut ullamcorper rutrum justo, at blandit
+                eros maximus ut. Integer non tincidunt justo, rhoncus Aenean
+                venenatis sed purus ac sollicitudin. Nulla mauris risus, commodo
+                et luctus rutrum, lobortis sed mauris. Integer congue, sem
+                elementum varius tristique.
+              </p>
+            </div>
+            <div class="about-img rounded" loading="lazy">
+              <img src="../src/assets/img/about2.png" class="w-full" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact us -->
+    <section id="contact-us" class="py-30 bg-white">
+      <div class="container">
+        <div class="head-title text-center">
+          <h2
+            class="text-[#090F41] mb-6 text-5xl drop-shadow-sm drop-shadow-[#090F41] relative after:w-30 after:h-0.5 after:bg-[#090F41] after:absolute after:top-[120%] after:start-[47%]">
+            Contact me
+          </h2>
+          <p class="text-[#090F41]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor
+          </p>
+        </div>
+        <div class="contact-items">
+          <form class="mt-10 grid gap-4">
+            <div class="flex gap-4 items-center flex-wrap md:flex-nowrap">
+              <div class="w-full md:w-1/2">
+                <label for="firstName" class="block">first Name</label>
+                <input
+                  type="text"
+                  id="firstName"
+                  name="firstName"
+                  class="w-full mt-2 bg-section/80 rounded border border-mainColor px-1 py-2 focus:outline-none focus:ring-mainColor" />
+              </div>
+
+              <div class="w-full md:w-1/2">
+                <label for="lastName" class="block">last Name</label>
+                <input
+                  type="text"
+                  id="lastName"
+                  name="lastName"
+                  class="w-full mt-2 bg-section/80 rounded border border-mainColor px-1 py-2 focus:outline-none focus:ring-mainColor" />
+              </div>
+            </div>
+
+            <div class="flex gap-4 items-center flex-wrap md:flex-nowrap">
+              <div class="w-full md:w-1/2">
+                <label for="email" class="block">Email </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="w-full mt-2 bg-section/80 rounded border border-mainColor px-1 py-2 focus:outline-none focus:ring-mainColor" />
+              </div>
+
+              <div class="w-full md:w-1/2">
+                <label for="phone" class="block">Phone </label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  class="w-full mt-2 bg-section/80 rounded border border-mainColor px-1 py-2 focus:outline-none focus:ring-mainColor" />
+              </div>
+            </div>
+
+            <div>
+              <label for="choose" class="block">Choose a Topic </label>
+              <select
+                id="choose"
+                name="choose"
+                class="w-full mt-2 bg-section/80 rounded border border-mainColor px-1 py-2 focus:outline-none focus:ring-mainColor">
+                <option value="" disabled="" selected="">Select one..</option>
+                <option value="html">html</option>
+                <option value="css">css</option>
+                <option value="js">js</option>
+                <option value="bootstrap">bootstrap</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="message" class="block">Message </label>
+              <textarea
+                placeholder="type message"
+                id="message"
+                name="message"
+                class="w-full h-40 resize-none mt-2 bg-section/80 rounded border border-mainColor px-1 py-2 focus:outline-none focus:ring-mainColor"></textarea>
+            </div>
+
+            <button class="btn w-fit text-white">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="py-10 text-white bg-[#2E2E2E]">
+      <div class="container">
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+          <div class="item grid gap-4">
+            <h3 class="my-4 text-3xl">Trendify</h3>
+            <p class="leading-normal mb-4">
+              Join our newsletter to stay up to date on features and releases.
+            </p>
+            <p class="leading-normal">
+              By subscribing you agree to with our Privacy Policy and provide
+              consent to receive updates from our company.
+            </p>
+          </div>
+          <div class="item">
+            <h3 class="my-4 text-3xl">About Us</h3>
+            <ul class="grid gap-4">
+              <li>FAQ</li>
+              <li>Contact</li>
+              <li>Returns</li>
+              <li>Blog</li>
+              <li>Shipping</li>
+            </ul>
+          </div>
+          <div class="item">
+            <h3 class="my-4 text-3xl">Customer</h3>
+            <ul class="grid gap-4">
+              <li>Affiliates</li>
+              <li>Apple Pay Payments</li>
+              <li>Returns</li>
+              <li>Returns Policy</li>
+              <li>Returns</li>
+            </ul>
+          </div>
+          <div class="item">
+            <h3 class="my-4 text-3xl">Follow Us</h3>
+            <ul class="grid gap-4">
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Twitter</li>
+              <li>LinkedIn</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/flowbite.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
